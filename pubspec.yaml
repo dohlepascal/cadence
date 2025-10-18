@@ -1,0 +1,39 @@
+name: cadence
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.9.2
+
+dependencies:
+  audioplayers: ^6.5.1
+  flex_color_scheme: ^8.3.0
+  flutter:
+    sdk: flutter
+  flutter_background_service: ^5.1.0
+  flutter_background_service_android: ^6.3.1
+  flutter_local_notifications: ^19.5.0
+  flutter_riverpod: ^3.0.3
+  google_fonts: ^6.3.2
+  shared_preferences: ^2.5.3
+  timezone: ^0.10.1
+  vibration: ^3.1.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+     - assets/sounds/bloop-1.mp3
+     - assets/sounds/bloop-2.mp3
+     - assets/sounds/bubble-pop-1.mp3
+     - assets/sounds/bubble-pop-2.mp3
+     - assets/sounds/dark-bell.mp3
+     - assets/sounds/pause.mp3
+     - assets/sounds/start.mp3
+     - assets/sounds/time-cancel.mp3
+     - assets/sounds/wrummm.mp3
